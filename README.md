@@ -12,7 +12,7 @@ The objectives for today are:
 - Understand how good tests enable you to refactor code more confidently
 
 ## Pre-flight checks
-This workshop requires you to have a working Python environment and Poetry on your computer, or if not on your computer, then you can use an ACG environment.
+This workshop requires you to have a working Python environment on your computer, or if not on your computer, then you can use an ACG environment.
 
 If you're using ACG, you'll need to install VS Code on your ACG instance. We want to see the visual test suite as well as use the debugger today, so we want to be using VS Code regardless of our development setup.
 
