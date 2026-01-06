@@ -12,18 +12,18 @@ The objectives for today are:
 - Understand how good tests enable you to refactor code more confidently
 
 ## Pre-flight checks
-This workshop requires you to have a working Python environment on your computer, or if not on your computer, then you can use an ACG environment.
+This workshop requires you to have a working Python environment on your computer, or if not on your computer, then you can use an Pluralsight environment.
 
-If you're using ACG, you'll need to install VS Code on your ACG instance. We want to see the visual test suite as well as use the debugger today, so we want to be using VS Code regardless of our development setup.
+If you're using Pluralsight, you'll need to install VS Code on your Pluralsight instance. We want to see the visual test suite as well as use the debugger today, so we want to be using VS Code regardless of our development setup.
 
-Fortunately, running VS Code on ACG is a relatively simple matter.
+Fortunately, running VS Code on Pluralsight is a relatively simple matter.
 
-### Installing VS Code on ACG
-#### Step 1: Spin up an ACG instance
-As normal, spin up an ACG cloud server instance using Ubuntu 22.04.
+### Installing VS Code on Pluralsight
+#### Step 1: Spin up an Pluralsight instance
+As normal, spin up an Pluralsight cloud server instance using Ubuntu 22.04.
 
 #### Step 2: Add Microsoft keyring
-We'll be installing VS Code from Microsoft, and so we need your ACG instance to trust Microsoft's repository. You can do this by running the following 5 commands in your ACG environment:
+We'll be installing VS Code from Microsoft, and so we need your Pluralsight instance to trust Microsoft's repository. You can do this by running the following 5 commands in your Pluralsight environment:
 ```bash
 sudo apt-get install wget gpg
 wget -qO- https://packages.microsoft.com/keys/microsoft.asc | gpg --dearmor > packages.microsoft.gpg
@@ -51,7 +51,7 @@ You should then be able to open up the provided link, sign in to GitHub (you may
 ## Morning
 We are going to start by implementing the rules of Chess in a chess app that has almost everything working apart from the rules of the game itself. 
 
-Please follow these instructions on the repo (which will include cloning the repo to your machine / ACG instance): https://github.com/corndeladmin/DevOps-Chessington-Python/blob/master/during_the_workshop.md
+Please follow these instructions on the repo (which will include cloning the repo to your machine / Pluralsight instance): https://github.com/corndeladmin/DevOps-Chessington-Python/blob/master/during_the_workshop.md
 
 ## Afternoon
 We'll do a bit more Chessington this afternoon, but we're going to take a detour to practice refactoring code. 
@@ -60,7 +60,7 @@ We're going to look at this through the lens of a different kind of test - a sna
 
 This test will look and work differently from the Chessington ones - instead of being pytest tests that VS Code integrates with, we have a simple Python script that executes the snapshot test. Running it will tell you if your code complies with the requirements or not.
 
-Please clone this repo to your local machine/ACG server, using the instructions to run it: https://github.com/corndeladmin/DevOps-Gilded-Rose-Python
+Please clone this repo to your local machine/Pluralsight server, using the instructions to run it: https://github.com/corndeladmin/DevOps-Gilded-Rose-Python
 
 ### Gilded Rose
 #### Goal
@@ -99,7 +99,7 @@ Before we do anything, let's read the brief for Gilded Rose.
 > To keep things simple, do not alter the Item class or “items” property.
 
 #### Step 1: Get set up
-- Clone the repo to your machine or ACG instance if you haven't already.
+- Clone the repo to your machine or Pluralsight instance if you haven't already.
 - Follow the instructions in the README to get set up and run the test.
 
 #### Step 2: Refactor the code
